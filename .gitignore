@@ -1,4 +1,5 @@
-*
+/*
 !.gitignore
-!*/OCW/6/6.0001-intro-compsci-python/psets/*
-!*/OCW/6/6.0002-intro-computthinking-datasci/psets/*
+!README.md
+!/OCW/6/6.0001-intro-compsci-python/psets/
+!/OCW/6/6.0002-intro-computthinking-datasci/psets/
