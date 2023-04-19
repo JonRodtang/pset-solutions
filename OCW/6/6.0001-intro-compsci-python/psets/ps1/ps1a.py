@@ -7,9 +7,9 @@ jonmro@pvv.ntnu.no
 
 import math
 # User inputs
-annual_salary = float(input("What is your annual salary in $?: "))
-portion_saved = float(input("How much of your salary do you want to save in %(0.0-1.0)?: "))
-total_cost    = float(input("What is the cost of your dream house in $?: "))
+annual_salary = float(input("Enter your annual salary: "))
+portion_saved = float(input("Enter the percent of your salary to save, as a decimal: "))
+total_cost    = float(input("Enter the cost of your dream home: "))
 
 current_savings = 0
 portion_down_payment = 0.25
@@ -28,5 +28,5 @@ while current_savings < down_payment_cost:
     monthly_returns = current_savings * (r / 12) 
     current_savings += monthly_returns + monthly_contribution
 
-print(months)
+print("Number of months:", months)
 
